@@ -75,6 +75,8 @@ module.exports = {
 
         // 依赖管理方面的提交
         'dependency',
+        // 分支合并方面的提交
+        'merge',
       ],
     ],
   },

@@ -33,6 +33,7 @@ yarn add @commitlint/cli @commitlint/config-conventional -D
 yarn add husky -D
 yarn add lint-staged -D
 npx husky install
+npx husky add .husky/pre-commit "npx lint-staged"
 ```
 
 ## run in h5 mode
